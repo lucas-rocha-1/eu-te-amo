@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#FFF3F4">
 <meta name="description" content="Tantas formas de dizer eu te amo. Todas para você. Um pequeno presente de aniversário.">
-<title>Para você — eu te amo, no mundo</title>
+<title>Ana Lara eu te AMO, no mundo</title>
 <style>
   :root{
     --bg: #FFF3F4;
@@ -3797,7 +3797,6 @@
   $('routeSelect').addEventListener('change',e=>{route=e.target.value;region='all';syncChips();resetCycle();renderGrid()});
   $('resetFilters').addEventListener('click',()=>{region='all';route='all';term='';$('searchInput').value='';$('routeSelect').value='all';syncChips();resetCycle();renderGrid();$('searchInput').focus()});
   $('clearHistory').addEventListener('click',()=>{seen.clear();favorites.clear();persist();resetCycle();renderGrid();$('clearHistory').textContent='descobertas e favoritas esquecidas'});
-  $('footerCount').textContent=`${LANGUAGES.length} formas de dizer. Uma pessoa em quem pensar.`;
   renderGrid();
 })();
 </script>
